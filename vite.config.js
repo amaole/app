@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import 'vite/modulepreload-polyfill'
 
 export default defineConfig({
+    //公共项
     build:{
         cssMinify:lightningcss
 
